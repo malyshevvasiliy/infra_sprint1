@@ -1,0 +1,5 @@
+IP: 158.160.24.76;
+name_taski: https://vasmal.hopto.org/;
+name_kittygram: https://vasmalkittygram.hopto.org/;
+login: Vasets;
+password: DfcbkbqYbyf1!;
