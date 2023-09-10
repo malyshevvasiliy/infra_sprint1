@@ -1,6 +1,7 @@
 import os
 from pathlib import Path
 
+<<<<<<< HEAD
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -44,6 +45,19 @@ TEMPLATES = [
 ^G Help          ^O Write Out     ^W Where Is      ^K Cut           ^T Execute       ^C Location      M-U Undo         M-A Set Mark     M-] To Bracket   M-Q Previous
 ^X Exit          ^R Read File     ^\ Replace       ^U Paste         ^J Justify       ^/ Go To Line    M-E Redo         M-6 Copy         ^Q Where Was     M-W Next
 
+=======
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+SECRET_KEY = os.getenv('SECRET_KEY')
+#SECRET_KEY = 'django-insecure-cg6*%6d51ef8f#4!r3*$vmxm4)abgjw8mo!4y-q*uq1!4$-89$'
+
+DEBUG = False
+
+STATIC_URL = 'static_backend'
+STATIC_ROOT = BASE_DIR / 'static_backend'
+
+ALLOWED_HOSTS = ['158.160.24.76', '127.0.0.1', 'localhost', 'vasmalkittygram.hopto.org']
+>>>>>>> 7725c9548c4a882f66a97d07b27c810ea178fb0d
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -129,7 +143,11 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 MEDIA_URL = '/media/'
+<<<<<<< HEAD
 MEDIA_ROOT = BASE_DIR / 'media'
+=======
+MEDIA_ROOT = '/var/www/kittygram/media/'
+>>>>>>> 7725c9548c4a882f66a97d07b27c810ea178fb0d
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
