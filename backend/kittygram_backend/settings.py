@@ -1,7 +1,6 @@
 import os
 from pathlib import Path
 
-<<<<<<< HEAD
 from dotenv import load_dotenv
 
 load_dotenv()
