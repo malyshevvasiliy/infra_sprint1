@@ -4,10 +4,12 @@
 import django.db.models.deletion
 from django.conf import settings
 from django.db import migrations, models
+
 =======
+import django.db.models.deletion
 from django.conf import settings
 from django.db import migrations, models
-import django.db.models.deletion
+
 >>>>>>> 7725c9548c4a882f66a97d07b27c810ea178fb0d
 
 
