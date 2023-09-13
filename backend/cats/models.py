@@ -1,10 +1,6 @@
 from django.contrib.auth import get_user_model
 from django.db import models
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 7725c9548c4a882f66a97d07b27c810ea178fb0d
 User = get_user_model()
 
 
